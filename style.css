@@ -1,0 +1,31 @@
+#cookie-banner {
+  background: #222;
+  color: #fff;
+  padding: 24px 32px;
+  position: fixed;
+  left: 50%;
+  bottom: 32px;
+  transform: translateX(-50%);
+  max-width: 400px;
+  width: 90%;
+  text-align: center;
+  font-family: Arial, sans-serif;
+  box-shadow: 0 8px 32px rgba(0,0,0,0.35);
+  border-radius: 16px;
+  border: 2px solid #4CAF50;
+  z-index: 1000;
+  display: none;
+}
+#accept-cookie {
+  background: #4CAF50;
+  color: white;
+  border: none;
+  padding: 10px 24px;
+  cursor: pointer;
+  font-size: 1rem;
+  border-radius: 8px;
+  margin-top: 16px;
+}
+#accept-cookie:hover {
+  background: #45a049;
+}
